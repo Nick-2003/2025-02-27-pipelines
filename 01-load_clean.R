@@ -16,3 +16,5 @@ data <- janitor::clean_names(data)
 data
 
 write_csv(data, "data/titanic_clean.csv") # new .csv to work with
+
+print("Script 1 complete")
